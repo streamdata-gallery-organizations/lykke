@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: lykke.api.streamdata.gallery
+title: Streamdata Gallery Lykke
+url: lykke.streamdata.gallery
 tag: Lykke
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: lykke
 github_branch: master
 collections:
