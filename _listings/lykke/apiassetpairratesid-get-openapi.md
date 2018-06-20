@@ -5,7 +5,7 @@ x-complete: 0
 info:
   title: Lykke Get API Assetpairrates
   version: 1.0.0
-  description: ""
+  description: Get api assetpairrates.
 basePath: /
 schemes:
 - http
@@ -17,7 +17,7 @@ paths:
   /api/AccountExist:
     get:
       summary: Get API Account Exist
-      description: ""
+      description: Get api account exist.
       operationId: ApiAccountExistGet
       x-api-path-slug: apiaccountexist-get
       parameters:
@@ -29,11 +29,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Account
+      - Exist
   /api/AllAssetDescription/{id}:
     get:
       summary: Get API All Asset Description
-      description: ""
+      description: Get api all asset description.
       operationId: ApiAllAssetDescriptionByIdGet
       x-api-path-slug: apiallassetdescriptionid-get
       parameters:
@@ -43,22 +44,25 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Description
   /api/AllAssetPairRates:
     get:
       summary: Get API All Asset Pair Rates
-      description: ""
+      description: Get api all asset pair rates.
       operationId: ApiAllAssetPairRatesGet
       x-api-path-slug: apiallassetpairrates-get
       responses:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pair
+      - Rates
   /api/AllAssetPairRates/{id}:
     get:
       summary: Get API All Asset Pair Rates
-      description: ""
+      description: Get api all asset pair rates.
       operationId: ApiAllAssetPairRatesByIdGet
       x-api-path-slug: apiallassetpairratesid-get
       parameters:
@@ -68,22 +72,25 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pair
+      - Rates
   /api/AllAssetPairs:
     get:
       summary: Get API All Asset Pairs
-      description: ""
+      description: Get api all asset pairs.
       operationId: ApiAllAssetPairsGet
       x-api-path-slug: apiallassetpairs-get
       responses:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pairs
   /api/AllAssetPairs/{id}:
     get:
       summary: Get API All Asset Pairs
-      description: ""
+      description: Get api all asset pairs.
       operationId: ApiAllAssetPairsByIdGet
       x-api-path-slug: apiallassetpairsid-get
       parameters:
@@ -93,22 +100,24 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pairs
   /api/ApplicationInfo:
     get:
       summary: Get API Application Information
-      description: ""
+      description: Get api application information.
       operationId: ApiApplicationInfoGet
       x-api-path-slug: apiapplicationinfo-get
       responses:
         200:
           description: OK
       tags:
-      - ""
+      - Application
+      - Information
   /api/AppSettings:
     get:
       summary: Get API Application Settings
-      description: ""
+      description: Get api application settings.
       operationId: ApiAppSettingsGet
       x-api-path-slug: apiappsettings-get
       parameters:
@@ -119,11 +128,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Application
+      - Settings
   /api/assetcategories:
     get:
       summary: Get API Asset Categories
-      description: ""
+      description: Get api asset categories.
       operationId: ApiAssetcategoriesGet
       x-api-path-slug: apiassetcategories-get
       parameters:
@@ -134,11 +144,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Categories
   /api/AssetDescription/{id}:
     get:
       summary: Get API Assetdescription
-      description: ""
+      description: Get api assetdescription.
       operationId: ApiAssetDescriptionByIdGet
       x-api-path-slug: apiassetdescriptionid-get
       parameters:
@@ -151,11 +162,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetdescription
   /api/AssetDisclaimers:
     get:
       summary: Get API Asset Dsclaimers
-      description: ""
+      description: Get api asset dsclaimers.
       operationId: AssetDisclaimersGet
       x-api-path-slug: apiassetdisclaimers-get
       parameters:
@@ -166,11 +177,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Dsclaimers
   /api/AssetDisclaimers/{disclaimerId}/approve:
     post:
       summary: Add API Asset Dsclaimers Disclaimer Approve
-      description: ""
+      description: Add api asset dsclaimers disclaimer approve.
       operationId: AssetDisclaimersApprove
       x-api-path-slug: apiassetdisclaimersdisclaimeridapprove-post
       parameters:
@@ -183,11 +195,14 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Dsclaimers
+      - Disclaimer
+      - Approve
   /api/AssetDisclaimers/{disclaimerId}/decline:
     post:
       summary: Add API Asset Dsclaimers Disclaimer Decline
-      description: ""
+      description: Add api asset dsclaimers disclaimer decline.
       operationId: AssetDisclaimersDecline
       x-api-path-slug: apiassetdisclaimersdisclaimeriddecline-post
       parameters:
@@ -200,11 +215,14 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Dsclaimers
+      - Disclaimer
+      - Decline
   /api/AssetPair/{id}:
     get:
       summary: Get API Assetpair
-      description: ""
+      description: Get api assetpair.
       operationId: ApiAssetPairByIdGet
       x-api-path-slug: apiassetpairid-get
       parameters:
@@ -217,11 +235,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpair
   /api/AssetPairDetailedRates:
     get:
       summary: Get API Assetpairdetailedrates
-      description: ""
+      description: Get api assetpairdetailedrates.
       operationId: ApiAssetPairDetailedRatesGet
       x-api-path-slug: apiassetpairdetailedrates-get
       parameters:
@@ -240,11 +258,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpairdetailedrates
   /api/AssetPairRates:
     get:
       summary: Get API Assetpairrates
-      description: ""
+      description: Get api assetpairrates.
       operationId: ApiAssetPairRatesGet
       x-api-path-slug: apiassetpairrates-get
       parameters:
@@ -257,11 +275,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpairrates
   /api/AssetPairRates/{id}:
     get:
       summary: Get API Assetpairrates
-      description: ""
+      description: Get api assetpairrates.
       operationId: ApiAssetPairRatesByIdGet
       x-api-path-slug: apiassetpairratesid-get
       parameters:
@@ -274,7 +292,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpairrates
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

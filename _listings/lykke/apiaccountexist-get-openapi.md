@@ -5,7 +5,7 @@ x-complete: 0
 info:
   title: Lykke Get API Account Exist
   version: 1.0.0
-  description: ""
+  description: Get api account exist.
 basePath: /
 schemes:
 - http
@@ -17,7 +17,7 @@ paths:
   /api/AccountExist:
     get:
       summary: Get API Account Exist
-      description: ""
+      description: Get api account exist.
       operationId: ApiAccountExistGet
       x-api-path-slug: apiaccountexist-get
       parameters:
@@ -29,7 +29,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Account
+      - Exist
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

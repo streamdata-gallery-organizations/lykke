@@ -5,7 +5,7 @@ x-complete: 0
 info:
   title: Lykke Get API Client Pendingactions
   version: 1.0.0
-  description: ""
+  description: Get api client pendingactions.
 basePath: /
 schemes:
 - http
@@ -17,7 +17,7 @@ paths:
   /api/AccountExist:
     get:
       summary: Get API Account Exist
-      description: ""
+      description: Get api account exist.
       operationId: ApiAccountExistGet
       x-api-path-slug: apiaccountexist-get
       parameters:
@@ -29,11 +29,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Account
+      - Exist
   /api/AllAssetDescription/{id}:
     get:
       summary: Get API All Asset Description
-      description: ""
+      description: Get api all asset description.
       operationId: ApiAllAssetDescriptionByIdGet
       x-api-path-slug: apiallassetdescriptionid-get
       parameters:
@@ -43,22 +44,25 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Description
   /api/AllAssetPairRates:
     get:
       summary: Get API All Asset Pair Rates
-      description: ""
+      description: Get api all asset pair rates.
       operationId: ApiAllAssetPairRatesGet
       x-api-path-slug: apiallassetpairrates-get
       responses:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pair
+      - Rates
   /api/AllAssetPairRates/{id}:
     get:
       summary: Get API All Asset Pair Rates
-      description: ""
+      description: Get api all asset pair rates.
       operationId: ApiAllAssetPairRatesByIdGet
       x-api-path-slug: apiallassetpairratesid-get
       parameters:
@@ -68,22 +72,25 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pair
+      - Rates
   /api/AllAssetPairs:
     get:
       summary: Get API All Asset Pairs
-      description: ""
+      description: Get api all asset pairs.
       operationId: ApiAllAssetPairsGet
       x-api-path-slug: apiallassetpairs-get
       responses:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pairs
   /api/AllAssetPairs/{id}:
     get:
       summary: Get API All Asset Pairs
-      description: ""
+      description: Get api all asset pairs.
       operationId: ApiAllAssetPairsByIdGet
       x-api-path-slug: apiallassetpairsid-get
       parameters:
@@ -93,22 +100,24 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Pairs
   /api/ApplicationInfo:
     get:
       summary: Get API Application Information
-      description: ""
+      description: Get api application information.
       operationId: ApiApplicationInfoGet
       x-api-path-slug: apiapplicationinfo-get
       responses:
         200:
           description: OK
       tags:
-      - ""
+      - Application
+      - Information
   /api/AppSettings:
     get:
       summary: Get API Application Settings
-      description: ""
+      description: Get api application settings.
       operationId: ApiAppSettingsGet
       x-api-path-slug: apiappsettings-get
       parameters:
@@ -119,11 +128,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Application
+      - Settings
   /api/assetcategories:
     get:
       summary: Get API Asset Categories
-      description: ""
+      description: Get api asset categories.
       operationId: ApiAssetcategoriesGet
       x-api-path-slug: apiassetcategories-get
       parameters:
@@ -134,11 +144,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Categories
   /api/AssetDescription/{id}:
     get:
       summary: Get API Assetdescription
-      description: ""
+      description: Get api assetdescription.
       operationId: ApiAssetDescriptionByIdGet
       x-api-path-slug: apiassetdescriptionid-get
       parameters:
@@ -151,11 +162,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetdescription
   /api/AssetDisclaimers:
     get:
       summary: Get API Asset Dsclaimers
-      description: ""
+      description: Get api asset dsclaimers.
       operationId: AssetDisclaimersGet
       x-api-path-slug: apiassetdisclaimers-get
       parameters:
@@ -166,11 +177,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Dsclaimers
   /api/AssetDisclaimers/{disclaimerId}/approve:
     post:
       summary: Add API Asset Dsclaimers Disclaimer Approve
-      description: ""
+      description: Add api asset dsclaimers disclaimer approve.
       operationId: AssetDisclaimersApprove
       x-api-path-slug: apiassetdisclaimersdisclaimeridapprove-post
       parameters:
@@ -183,11 +195,14 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Dsclaimers
+      - Disclaimer
+      - Approve
   /api/AssetDisclaimers/{disclaimerId}/decline:
     post:
       summary: Add API Asset Dsclaimers Disclaimer Decline
-      description: ""
+      description: Add api asset dsclaimers disclaimer decline.
       operationId: AssetDisclaimersDecline
       x-api-path-slug: apiassetdisclaimersdisclaimeriddecline-post
       parameters:
@@ -200,11 +215,14 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Asset
+      - Dsclaimers
+      - Disclaimer
+      - Decline
   /api/AssetPair/{id}:
     get:
       summary: Get API Assetpair
-      description: ""
+      description: Get api assetpair.
       operationId: ApiAssetPairByIdGet
       x-api-path-slug: apiassetpairid-get
       parameters:
@@ -217,11 +235,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpair
   /api/AssetPairDetailedRates:
     get:
       summary: Get API Assetpairdetailedrates
-      description: ""
+      description: Get api assetpairdetailedrates.
       operationId: ApiAssetPairDetailedRatesGet
       x-api-path-slug: apiassetpairdetailedrates-get
       parameters:
@@ -240,11 +258,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpairdetailedrates
   /api/AssetPairRates:
     get:
       summary: Get API Assetpairrates
-      description: ""
+      description: Get api assetpairrates.
       operationId: ApiAssetPairRatesGet
       x-api-path-slug: apiassetpairrates-get
       parameters:
@@ -257,11 +275,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpairrates
   /api/AssetPairRates/{id}:
     get:
       summary: Get API Assetpairrates
-      description: ""
+      description: Get api assetpairrates.
       operationId: ApiAssetPairRatesByIdGet
       x-api-path-slug: apiassetpairratesid-get
       parameters:
@@ -274,11 +292,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpairrates
   /api/AssetPairs:
     get:
       summary: Get API Assetpairs
-      description: ""
+      description: Get api assetpairs.
       operationId: ApiAssetPairsGet
       x-api-path-slug: apiassetpairs-get
       parameters:
@@ -289,22 +307,22 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assetpairs
   /api/Assets:
     get:
       summary: Get API Assets
-      description: ""
+      description: Get api assets.
       operationId: ApiAssetsGet
       x-api-path-slug: apiassets-get
       responses:
         200:
           description: OK
       tags:
-      - ""
+      - Assets
   /api/Assets/{id}:
     get:
       summary: Get API Assets
-      description: ""
+      description: Get api assets.
       operationId: ApiAssetsByIdGet
       x-api-path-slug: apiassetsid-get
       parameters:
@@ -314,11 +332,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assets
   /api/Assets/description/list:
     post:
       summary: Add API Assets Description List
-      description: ""
+      description: Add api assets description list.
       operationId: ApiAssetsDescriptionListPost
       x-api-path-slug: apiassetsdescriptionlist-post
       parameters:
@@ -330,11 +348,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assets
+      - Description
+      - List
   /api/Assets/{assetId}/attributes:
     get:
       summary: Get API Assets Asset Attributes
-      description: ""
+      description: Get api assets asset attributes.
       operationId: ApiAssetsByAssetIdAttributesGet
       x-api-path-slug: apiassetsassetidattributes-get
       parameters:
@@ -347,11 +367,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assets
+      - Asset
+      - Attributes
   /api/Assets/{assetId}/attributes/{key}:
     get:
       summary: Get API Assets Asset Attributes Key
-      description: ""
+      description: Get api assets asset attributes key.
       operationId: ApiAssetsByAssetIdAttributesByKeyGet
       x-api-path-slug: apiassetsassetidattributeskey-get
       parameters:
@@ -366,11 +388,14 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Assets
+      - Asset
+      - Attributes
+      - Key
   /api/Auth:
     post:
       summary: Add API Auth
-      description: ""
+      description: Add api auth.
       operationId: ApiAuthPost
       x-api-path-slug: apiauth-post
       parameters:
@@ -382,11 +407,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Auth
   /api/Auth/LogOut:
     post:
       summary: Add API Auth Logout
-      description: ""
+      description: Add api auth logout.
       operationId: ApiAuthLogOutPost
       x-api-path-slug: apiauthlogout-post
       parameters:
@@ -397,11 +422,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Auth
+      - Logout
   /api/BackupCompleted:
     post:
       summary: Add API Backup Completed
-      description: ""
+      description: Add api backup completed.
       operationId: ApiBackupCompletedPost
       x-api-path-slug: apibackupcompleted-post
       parameters:
@@ -412,11 +438,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Backup
+      - Completed
   /api/BankCardPaymentUrl:
     post:
       summary: Add API Bankcardpaymenturl
-      description: ""
+      description: Add api bankcardpaymenturl.
       operationId: ApiBankCardPaymentUrlPost
       x-api-path-slug: apibankcardpaymenturl-post
       parameters:
@@ -431,11 +458,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bankcardpaymenturl
   /api/BankCardPaymentUrlFormValues:
     get:
       summary: Get API Bankcardpaymenturlformvalues
-      description: ""
+      description: Get api bankcardpaymenturlformvalues.
       operationId: ApiBankCardPaymentUrlFormValuesGet
       x-api-path-slug: apibankcardpaymenturlformvalues-get
       parameters:
@@ -446,11 +473,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bankcardpaymenturlformvalues
   /api/BankTransferRequest:
     post:
       summary: Add API Banktransferrequest
-      description: ""
+      description: Add api banktransferrequest.
       operationId: ApiBankTransferRequestPost
       x-api-path-slug: apibanktransferrequest-post
       parameters:
@@ -465,11 +492,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Banktransferrequest
   /api/BaseAsset:
     get:
       summary: Get API Baseasset
-      description: ""
+      description: Get api baseasset.
       operationId: ApiBaseAssetGet
       x-api-path-slug: apibaseasset-get
       parameters:
@@ -480,10 +507,10 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Baseasset
     post:
       summary: Add API Baseasset
-      description: ""
+      description: Add api baseasset.
       operationId: ApiBaseAssetPost
       x-api-path-slug: apibaseasset-post
       parameters:
@@ -498,11 +525,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Baseasset
   /api/BaseAssets:
     get:
       summary: Get API Baseassets
-      description: ""
+      description: Get api baseassets.
       operationId: ApiBaseAssetsGet
       x-api-path-slug: apibaseassets-get
       parameters:
@@ -513,11 +540,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Baseassets
   /api/BcnTransaction:
     get:
       summary: Get API Bcntransaction
-      description: ""
+      description: Get api bcntransaction.
       operationId: ApiBcnTransactionGet
       x-api-path-slug: apibcntransaction-get
       parameters:
@@ -530,11 +557,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bcntransaction
   /api/BcnTransaction/offchain-trade:
     get:
       summary: Get API Bcntransaction Offchain Trade
-      description: ""
+      description: Get api bcntransaction offchain trade.
       operationId: ApiBcnTransactionOffchain-tradeGet
       x-api-path-slug: apibcntransactionoffchaintrade-get
       parameters:
@@ -547,11 +574,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bcntransaction
+      - Offchain
+      - Trade
   /api/BcnTransactionByCashOperation/{id}:
     get:
       summary: Get API Bcntransactionbycashoperation
-      description: ""
+      description: Get api bcntransactionbycashoperation.
       operationId: ApiBcnTransactionByCashOperationByIdGet
       x-api-path-slug: apibcntransactionbycashoperationid-get
       parameters:
@@ -564,11 +593,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bcntransactionbycashoperation
   /api/BcnTransactionByExchange/{id}:
     get:
       summary: Get API Bcntransactionbyexchange
-      description: ""
+      description: Get api bcntransactionbyexchange.
       operationId: ApiBcnTransactionByExchangeByIdGet
       x-api-path-slug: apibcntransactionbyexchangeid-get
       parameters:
@@ -581,11 +610,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bcntransactionbyexchange
   /api/BcnTransactionByTransfer/{id}:
     get:
       summary: Get API Bcntransactionbytransfer
-      description: ""
+      description: Get api bcntransactionbytransfer.
       operationId: ApiBcnTransactionByTransferByIdGet
       x-api-path-slug: apibcntransactionbytransferid-get
       parameters:
@@ -598,11 +627,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bcntransactionbytransfer
   /api/BitcoinCash/multisig/balance:
     get:
       summary: Get API Bitcoincash Multisig Balance
-      description: ""
+      description: Get api bitcoincash multisig balance.
       operationId: ApiBitcoinCashMultisigBalanceGet
       x-api-path-slug: apibitcoincashmultisigbalance-get
       parameters:
@@ -613,11 +642,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bitcoincash
+      - Multisig
+      - Balance
   /api/BitcoinCash/multisig/transaction:
     get:
       summary: Get API Bitcoincash Multisig Transaction
-      description: ""
+      description: Get api bitcoincash multisig transaction.
       operationId: ApiBitcoinCashMultisigTransactionGet
       x-api-path-slug: apibitcoincashmultisigtransaction-get
       parameters:
@@ -630,11 +661,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bitcoincash
+      - Multisig
+      - Transaction
   /api/BitcoinCash/private/balance:
     get:
       summary: Get API Bitcoincash Private Balance
-      description: ""
+      description: Get api bitcoincash private balance.
       operationId: ApiBitcoinCashPrivateBalanceGet
       x-api-path-slug: apibitcoincashprivatebalance-get
       parameters:
@@ -647,11 +680,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bitcoincash
+      - Private
+      - Balance
   /api/BitcoinCash/private/transaction:
     get:
       summary: Get API Bitcoincash Private Transaction
-      description: ""
+      description: Get api bitcoincash private transaction.
       operationId: ApiBitcoinCashPrivateTransactionGet
       x-api-path-slug: apibitcoincashprivatetransaction-get
       parameters:
@@ -668,11 +703,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bitcoincash
+      - Private
+      - Transaction
   /api/BitcoinCash/broadcast:
     post:
       summary: Add API Bitcoincash Broadcast
-      description: ""
+      description: Add api bitcoincash broadcast.
       operationId: ApiBitcoinCashBroadcastPost
       x-api-path-slug: apibitcoincashbroadcast-post
       parameters:
@@ -687,11 +724,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Bitcoincash
+      - Broadcast
   /api/BlockchainTransaction:
     get:
       summary: Get API Blockchaintransaction
-      description: ""
+      description: Get api blockchaintransaction.
       operationId: ApiBlockchainTransactionGet
       x-api-path-slug: apiblockchaintransaction-get
       parameters:
@@ -704,11 +742,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Blockchaintransaction
   /api/BroadcastTransaction:
     post:
       summary: Add API Broadcasttransaction
-      description: ""
+      description: Add api broadcasttransaction.
       operationId: ApiBroadcastTransactionPost
       x-api-path-slug: apibroadcasttransaction-post
       parameters:
@@ -723,11 +761,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Broadcasttransaction
   /api/CashOut:
     post:
       summary: Add API Cashout
-      description: ""
+      description: Add api cashout.
       operationId: ApiCashOutPost
       x-api-path-slug: apicashout-post
       parameters:
@@ -742,11 +780,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Cashout
   /api/CashOutSwiftRequest:
     post:
       summary: Add API Cashout Swift Request
-      description: ""
+      description: Add api cashout swift request.
       operationId: ApiCashOutSwiftRequestPost
       x-api-path-slug: apicashoutswiftrequest-post
       parameters:
@@ -761,11 +799,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Cashout
+      - Swift
+      - Request
   /api/ChangePinAndPassword:
     post:
       summary: Add API Changepinandpassword
-      description: ""
+      description: Add api changepinandpassword.
       operationId: ApiChangePinAndPasswordPost
       x-api-path-slug: apichangepinandpassword-post
       parameters:
@@ -777,11 +817,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Changepinandpassword
   /api/CheckDocumentsToUpload:
     get:
       summary: Get API Checkdocumentstoupload
-      description: ""
+      description: Get api checkdocumentstoupload.
       operationId: ApiCheckDocumentsToUploadGet
       x-api-path-slug: apicheckdocumentstoupload-get
       parameters:
@@ -792,11 +832,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Checkdocumentstoupload
   /api/CheckMobilePhone:
     get:
       summary: Get API Checkmobilephone
-      description: ""
+      description: Get api checkmobilephone.
       operationId: ApiCheckMobilePhoneGet
       x-api-path-slug: apicheckmobilephone-get
       parameters:
@@ -811,10 +851,10 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Checkmobilephone
     post:
       summary: Add API Checkmobilephone
-      description: ""
+      description: Add api checkmobilephone.
       operationId: ApiCheckMobilePhonePost
       x-api-path-slug: apicheckmobilephone-post
       parameters:
@@ -829,11 +869,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Checkmobilephone
   /api/Client/codes:
     get:
       summary: Get API Client Codes
-      description: ""
+      description: Get api client codes.
       operationId: ApiClientCodesGet
       x-api-path-slug: apiclientcodes-get
       parameters:
@@ -844,10 +884,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Codes
     post:
       summary: Add API Client Codes
-      description: ""
+      description: Add api client codes.
       operationId: ApiClientCodesPost
       x-api-path-slug: apiclientcodes-post
       parameters:
@@ -862,11 +903,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Codes
   /api/Client/keys/encodedmainkey:
     post:
       summary: Add API Client Keys Encodedmainkey
-      description: ""
+      description: Add api client keys encodedmainkey.
       operationId: ApiClientKeysEncodedmainkeyPost
       x-api-path-slug: apiclientkeysencodedmainkey-post
       parameters:
@@ -881,11 +923,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Keys
+      - Encodedmainkey
   /api/Client/balances/{baseAsset}:
     get:
       summary: Get API Client Balances Baseasset
-      description: ""
+      description: Get api client balances baseasset.
       operationId: ApiClientBalancesByBaseAssetGet
       x-api-path-slug: apiclientbalancesbaseasset-get
       parameters:
@@ -898,11 +942,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Balances
+      - Baseasset
   /api/Client/pushTxDialogOk:
     post:
       summary: Add API Client Pushtxdialogok
-      description: ""
+      description: Add api client pushtxdialogok.
       operationId: ApiClientPushTxDialogOkPost
       x-api-path-slug: apiclientpushtxdialogok-post
       parameters:
@@ -913,11 +959,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Pushtxdialogok
   /api/Client/dictionary/{key}:
     get:
       summary: Get API Client Dictionary Key
-      description: ""
+      description: Get api client dictionary key.
       operationId: ApiClientDictionaryByKeyGet
       x-api-path-slug: apiclientdictionarykey-get
       parameters:
@@ -930,10 +977,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Dictionary
+      - Key
     delete:
       summary: Delete API Client Dictionary Key
-      description: ""
+      description: Delete api client dictionary key.
       operationId: ApiClientDictionaryByKeyDelete
       x-api-path-slug: apiclientdictionarykey-delete
       parameters:
@@ -946,11 +995,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Dictionary
+      - Key
   /api/Client/dictionary:
     put:
       summary: Put API Client Dictionary
-      description: ""
+      description: Put api client dictionary.
       operationId: ApiClientDictionaryPut
       x-api-path-slug: apiclientdictionary-put
       parameters:
@@ -965,10 +1016,11 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Dictionary
     post:
       summary: Add API Client Dictionary
-      description: ""
+      description: Add api client dictionary.
       operationId: ApiClientDictionaryPost
       x-api-path-slug: apiclientdictionary-post
       parameters:
@@ -983,11 +1035,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Dictionary
   /api/Client/properties/isUserFromUS:
     get:
       summary: Get API Client Properties Isuserfromus
-      description: ""
+      description: Get api client properties isuserfromus.
       operationId: ApiClientPropertiesIsUserFromUSGet
       x-api-path-slug: apiclientpropertiesisuserfromus-get
       parameters:
@@ -998,10 +1051,12 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Properties
+      - Isuserfromus
     post:
       summary: Add API Client Properties Isuserfromus
-      description: ""
+      description: Add api client properties isuserfromus.
       operationId: ApiClientPropertiesIsUserFromUSPost
       x-api-path-slug: apiclientpropertiesisuserfromus-post
       parameters:
@@ -1016,11 +1071,13 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Properties
+      - Isuserfromus
   /api/Client/pendingActions:
     get:
       summary: Get API Client Pendingactions
-      description: ""
+      description: Get api client pendingactions.
       operationId: ApiClientPendingActionsGet
       x-api-path-slug: apiclientpendingactions-get
       parameters:
@@ -1031,7 +1088,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Client
+      - Pendingactions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
