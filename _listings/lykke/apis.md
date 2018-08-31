@@ -7,2153 +7,2146 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Lykke
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Lykke Get API Account Exist
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Account Exist
+  x-api-slug: apiaccountexist-get
   description: Get api account exist.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AccountExist
-  tags: Account,Exist
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiaccountexist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiaccountexist-get-openapi.md
-- name: Lykke Get API All Asset Description
-  x-api-slug: lykke
+- name: Wallet_Api - Get API All Asset Description
+  x-api-slug: apiallassetdescriptionid-get
   description: Get api all asset description.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AllAssetDescription/{id}
-  tags: Asset,Description
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetdescriptionid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetdescriptionid-get-openapi.md
-- name: Lykke Get API All Asset Pair Rates
-  x-api-slug: lykke
+- name: Wallet_Api - Get API All Asset Pair Rates
+  x-api-slug: apiallassetpairrates-get
   description: Get api all asset pair rates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AllAssetPairRates
-  tags: Asset,Pair,Rates
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairrates-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairrates-get-openapi.md
-- name: Lykke Get API All Asset Pair Rates
-  x-api-slug: lykke
+- name: Wallet_Api - Get API All Asset Pair Rates
+  x-api-slug: apiallassetpairratesid-get
   description: Get api all asset pair rates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AllAssetPairRates/{id}
-  tags: Asset,Pair,Rates
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairratesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairratesid-get-openapi.md
-- name: Lykke Get API All Asset Pairs
-  x-api-slug: lykke
+- name: Wallet_Api - Get API All Asset Pairs
+  x-api-slug: apiallassetpairs-get
   description: Get api all asset pairs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AllAssetPairs
-  tags: Asset,Pairs
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairs-get-openapi.md
-- name: Lykke Get API All Asset Pairs
-  x-api-slug: lykke
+- name: Wallet_Api - Get API All Asset Pairs
+  x-api-slug: apiallassetpairsid-get
   description: Get api all asset pairs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AllAssetPairs/{id}
-  tags: Asset,Pairs
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiallassetpairsid-get-openapi.md
-- name: Lykke Get API Application Information
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Application Information
+  x-api-slug: apiapplicationinfo-get
   description: Get api application information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ApplicationInfo
-  tags: Application,Information
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiapplicationinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiapplicationinfo-get-openapi.md
-- name: Lykke Get API Application Settings
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Application Settings
+  x-api-slug: apiappsettings-get
   description: Get api application settings.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AppSettings
-  tags: Application,Settings
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiappsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiappsettings-get-openapi.md
-- name: Lykke Get API Asset Categories
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Asset Categories
+  x-api-slug: apiassetcategories-get
   description: Get api asset categories.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/assetcategories
-  tags: Asset,Categories
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetcategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetcategories-get-openapi.md
-- name: Lykke Get API Assetdescription
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assetdescription
+  x-api-slug: apiassetdescriptionid-get
   description: Get api assetdescription.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetDescription/{id}
-  tags: Assetdescription
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdescriptionid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdescriptionid-get-openapi.md
-- name: Lykke Get API Asset Dsclaimers
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Asset Dsclaimers
+  x-api-slug: apiassetdisclaimers-get
   description: Get api asset dsclaimers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetDisclaimers
-  tags: Asset,Dsclaimers
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdisclaimers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdisclaimers-get-openapi.md
-- name: Lykke Add API Asset Dsclaimers Disclaimer Approve
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Asset Dsclaimers Disclaimer Approve
+  x-api-slug: apiassetdisclaimersdisclaimeridapprove-post
   description: Add api asset dsclaimers disclaimer approve.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetDisclaimers/{disclaimerId}/approve
-  tags: Asset,Dsclaimers,Disclaimer,Approve
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdisclaimersdisclaimeridapprove-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdisclaimersdisclaimeridapprove-post-openapi.md
-- name: Lykke Add API Asset Dsclaimers Disclaimer Decline
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Asset Dsclaimers Disclaimer Decline
+  x-api-slug: apiassetdisclaimersdisclaimeriddecline-post
   description: Add api asset dsclaimers disclaimer decline.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetDisclaimers/{disclaimerId}/decline
-  tags: Asset,Dsclaimers,Disclaimer,Decline
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdisclaimersdisclaimeriddecline-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetdisclaimersdisclaimeriddecline-post-openapi.md
-- name: Lykke Get API Assetpair
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assetpair
+  x-api-slug: apiassetpairid-get
   description: Get api assetpair.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetPair/{id}
-  tags: Assetpair
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairid-get-openapi.md
-- name: Lykke Get API Assetpairdetailedrates
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assetpairdetailedrates
+  x-api-slug: apiassetpairdetailedrates-get
   description: Get api assetpairdetailedrates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetPairDetailedRates
-  tags: Assetpairdetailedrates
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairdetailedrates-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairdetailedrates-get-openapi.md
-- name: Lykke Get API Assetpairrates
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assetpairrates
+  x-api-slug: apiassetpairrates-get
   description: Get api assetpairrates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetPairRates
-  tags: Assetpairrates
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairrates-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairrates-get-openapi.md
-- name: Lykke Get API Assetpairrates
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assetpairrates
+  x-api-slug: apiassetpairratesid-get
   description: Get api assetpairrates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetPairRates/{id}
-  tags: Assetpairrates
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairratesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairratesid-get-openapi.md
-- name: Lykke Get API Assetpairs
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assetpairs
+  x-api-slug: apiassetpairs-get
   description: Get api assetpairs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/AssetPairs
-  tags: Assetpairs
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetpairs-get-openapi.md
-- name: Lykke Get API Assets
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assets
+  x-api-slug: apiassets-get
   description: Get api assets.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Assets
-  tags: Assets
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassets-get-openapi.md
-- name: Lykke Get API Assets
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assets
+  x-api-slug: apiassetsid-get
   description: Get api assets.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Assets/{id}
-  tags: Assets
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetsid-get-openapi.md
-- name: Lykke Add API Assets Description List
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Assets Description List
+  x-api-slug: apiassetsdescriptionlist-post
   description: Add api assets description list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Assets/description/list
-  tags: Assets,Description,List
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetsdescriptionlist-post-openapi.md
-- name: Lykke Get API Assets Asset Attributes
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assets Asset Attributes
+  x-api-slug: apiassetsassetidattributes-get
   description: Get api assets asset attributes.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Assets/{assetId}/attributes
-  tags: Assets,Asset,Attributes
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetsassetidattributes-get-openapi.md
-- name: Lykke Get API Assets Asset Attributes Key
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Assets Asset Attributes Key
+  x-api-slug: apiassetsassetidattributeskey-get
   description: Get api assets asset attributes key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Assets/{assetId}/attributes/{key}
-  tags: Assets,Asset,Attributes,Key
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiassetsassetidattributeskey-get-openapi.md
-- name: Lykke Add API Auth
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Auth
+  x-api-slug: apiauth-post
   description: Add api auth.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Auth
-  tags: Auth
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiauth-post-openapi.md
-- name: Lykke Add API Auth Logout
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Auth Logout
+  x-api-slug: apiauthlogout-post
   description: Add api auth logout.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Auth/LogOut
-  tags: Auth,Logout
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiauthlogout-post-openapi.md
-- name: Lykke Add API Backup Completed
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Backup Completed
+  x-api-slug: apibackupcompleted-post
   description: Add api backup completed.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BackupCompleted
-  tags: Backup,Completed
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibackupcompleted-post-openapi.md
-- name: Lykke Add API Bankcardpaymenturl
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Bankcardpaymenturl
+  x-api-slug: apibankcardpaymenturl-post
   description: Add api bankcardpaymenturl.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BankCardPaymentUrl
-  tags: Bankcardpaymenturl
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibankcardpaymenturl-post-openapi.md
-- name: Lykke Get API Bankcardpaymenturlformvalues
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bankcardpaymenturlformvalues
+  x-api-slug: apibankcardpaymenturlformvalues-get
   description: Get api bankcardpaymenturlformvalues.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BankCardPaymentUrlFormValues
-  tags: Bankcardpaymenturlformvalues
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibankcardpaymenturlformvalues-get-openapi.md
-- name: Lykke Add API Banktransferrequest
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Banktransferrequest
+  x-api-slug: apibanktransferrequest-post
   description: Add api banktransferrequest.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BankTransferRequest
-  tags: Banktransferrequest
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibanktransferrequest-post-openapi.md
-- name: Lykke Get API Baseasset
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Baseasset
+  x-api-slug: apibaseasset-get
   description: Get api baseasset.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BaseAsset
-  tags: Baseasset
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibaseasset-get-openapi.md
-- name: Lykke Add API Baseasset
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Baseasset
+  x-api-slug: apibaseasset-post
   description: Add api baseasset.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BaseAsset
-  tags: Baseasset
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibaseasset-post-openapi.md
-- name: Lykke Get API Baseassets
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Baseassets
+  x-api-slug: apibaseassets-get
   description: Get api baseassets.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BaseAssets
-  tags: Baseassets
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibaseassets-get-openapi.md
-- name: Lykke Get API Bcntransaction
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bcntransaction
+  x-api-slug: apibcntransaction-get
   description: Get api bcntransaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BcnTransaction
-  tags: Bcntransaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibcntransaction-get-openapi.md
-- name: Lykke Get API Bcntransaction Offchain Trade
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bcntransaction Offchain Trade
+  x-api-slug: apibcntransactionoffchaintrade-get
   description: Get api bcntransaction offchain trade.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BcnTransaction/offchain-trade
-  tags: Bcntransaction,Offchain,Trade
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibcntransactionoffchaintrade-get-openapi.md
-- name: Lykke Get API Bcntransactionbycashoperation
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bcntransactionbycashoperation
+  x-api-slug: apibcntransactionbycashoperationid-get
   description: Get api bcntransactionbycashoperation.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BcnTransactionByCashOperation/{id}
-  tags: Bcntransactionbycashoperation
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibcntransactionbycashoperationid-get-openapi.md
-- name: Lykke Get API Bcntransactionbyexchange
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bcntransactionbyexchange
+  x-api-slug: apibcntransactionbyexchangeid-get
   description: Get api bcntransactionbyexchange.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BcnTransactionByExchange/{id}
-  tags: Bcntransactionbyexchange
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibcntransactionbyexchangeid-get-openapi.md
-- name: Lykke Get API Bcntransactionbytransfer
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bcntransactionbytransfer
+  x-api-slug: apibcntransactionbytransferid-get
   description: Get api bcntransactionbytransfer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BcnTransactionByTransfer/{id}
-  tags: Bcntransactionbytransfer
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibcntransactionbytransferid-get-openapi.md
-- name: Lykke Get API Bitcoincash Multisig Balance
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bitcoincash Multisig Balance
+  x-api-slug: apibitcoincashmultisigbalance-get
   description: Get api bitcoincash multisig balance.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BitcoinCash/multisig/balance
-  tags: Bitcoincash,Multisig,Balance
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibitcoincashmultisigbalance-get-openapi.md
-- name: Lykke Get API Bitcoincash Multisig Transaction
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bitcoincash Multisig Transaction
+  x-api-slug: apibitcoincashmultisigtransaction-get
   description: Get api bitcoincash multisig transaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BitcoinCash/multisig/transaction
-  tags: Bitcoincash,Multisig,Transaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibitcoincashmultisigtransaction-get-openapi.md
-- name: Lykke Get API Bitcoincash Private Balance
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bitcoincash Private Balance
+  x-api-slug: apibitcoincashprivatebalance-get
   description: Get api bitcoincash private balance.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BitcoinCash/private/balance
-  tags: Bitcoincash,Private,Balance
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibitcoincashprivatebalance-get-openapi.md
-- name: Lykke Get API Bitcoincash Private Transaction
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Bitcoincash Private Transaction
+  x-api-slug: apibitcoincashprivatetransaction-get
   description: Get api bitcoincash private transaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BitcoinCash/private/transaction
-  tags: Bitcoincash,Private,Transaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibitcoincashprivatetransaction-get-openapi.md
-- name: Lykke Add API Bitcoincash Broadcast
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Bitcoincash Broadcast
+  x-api-slug: apibitcoincashbroadcast-post
   description: Add api bitcoincash broadcast.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BitcoinCash/broadcast
-  tags: Bitcoincash,Broadcast
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibitcoincashbroadcast-post-openapi.md
-- name: Lykke Get API Blockchaintransaction
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Blockchaintransaction
+  x-api-slug: apiblockchaintransaction-get
   description: Get api blockchaintransaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BlockchainTransaction
-  tags: Blockchaintransaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiblockchaintransaction-get-openapi.md
-- name: Lykke Add API Broadcasttransaction
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Broadcasttransaction
+  x-api-slug: apibroadcasttransaction-post
   description: Add api broadcasttransaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/BroadcastTransaction
-  tags: Broadcasttransaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apibroadcasttransaction-post-openapi.md
-- name: Lykke Add API Cashout
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Cashout
+  x-api-slug: apicashout-post
   description: Add api cashout.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/CashOut
-  tags: Cashout
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apicashout-post-openapi.md
-- name: Lykke Add API Cashout Swift Request
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Cashout Swift Request
+  x-api-slug: apicashoutswiftrequest-post
   description: Add api cashout swift request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/CashOutSwiftRequest
-  tags: Cashout,Swift,Request
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apicashoutswiftrequest-post-openapi.md
-- name: Lykke Add API Changepinandpassword
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Changepinandpassword
+  x-api-slug: apichangepinandpassword-post
   description: Add api changepinandpassword.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ChangePinAndPassword
-  tags: Changepinandpassword
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apichangepinandpassword-post-openapi.md
-- name: Lykke Get API Checkdocumentstoupload
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Checkdocumentstoupload
+  x-api-slug: apicheckdocumentstoupload-get
   description: Get api checkdocumentstoupload.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/CheckDocumentsToUpload
-  tags: Checkdocumentstoupload
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apicheckdocumentstoupload-get-openapi.md
-- name: Lykke Get API Checkmobilephone
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Checkmobilephone
+  x-api-slug: apicheckmobilephone-get
   description: Get api checkmobilephone.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/CheckMobilePhone
-  tags: Checkmobilephone
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apicheckmobilephone-get-openapi.md
-- name: Lykke Add API Checkmobilephone
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Checkmobilephone
+  x-api-slug: apicheckmobilephone-post
   description: Add api checkmobilephone.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/CheckMobilePhone
-  tags: Checkmobilephone
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apicheckmobilephone-post-openapi.md
-- name: Lykke Get API Client Codes
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Client Codes
+  x-api-slug: apiclientcodes-get
   description: Get api client codes.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/codes
-  tags: Client,Codes
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientcodes-get-openapi.md
-- name: Lykke Add API Client Codes
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Client Codes
+  x-api-slug: apiclientcodes-post
   description: Add api client codes.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/codes
-  tags: Client,Codes
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientcodes-post-openapi.md
-- name: Lykke Add API Client Keys Encodedmainkey
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Client Keys Encodedmainkey
+  x-api-slug: apiclientkeysencodedmainkey-post
   description: Add api client keys encodedmainkey.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/keys/encodedmainkey
-  tags: Client,Keys,Encodedmainkey
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientkeysencodedmainkey-post-openapi.md
-- name: Lykke Get API Client Balances Baseasset
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Client Balances Baseasset
+  x-api-slug: apiclientbalancesbaseasset-get
   description: Get api client balances baseasset.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/balances/{baseAsset}
-  tags: Client,Balances,Baseasset
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientbalancesbaseasset-get-openapi.md
-- name: Lykke Add API Client Pushtxdialogok
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Client Pushtxdialogok
+  x-api-slug: apiclientpushtxdialogok-post
   description: Add api client pushtxdialogok.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/pushTxDialogOk
-  tags: Client,Pushtxdialogok
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientpushtxdialogok-post-openapi.md
-- name: Lykke Get API Client Dictionary Key
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Client Dictionary Key
+  x-api-slug: apiclientdictionarykey-get
   description: Get api client dictionary key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/dictionary/{key}
-  tags: Client,Dictionary,Key
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientdictionarykey-get-openapi.md
-- name: Lykke Delete API Client Dictionary Key
-  x-api-slug: lykke
+- name: Wallet_Api - Delete API Client Dictionary Key
+  x-api-slug: apiclientdictionarykey-delete
   description: Delete api client dictionary key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/dictionary/{key}
-  tags: Client,Dictionary,Key
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientdictionarykey-delete-openapi.md
-- name: Lykke Put API Client Dictionary
-  x-api-slug: lykke
+- name: Wallet_Api - Put API Client Dictionary
+  x-api-slug: apiclientdictionary-put
   description: Put api client dictionary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/dictionary
-  tags: Client,Dictionary
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientdictionary-put-openapi.md
-- name: Lykke Add API Client Dictionary
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Client Dictionary
+  x-api-slug: apiclientdictionary-post
   description: Add api client dictionary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/dictionary
-  tags: Client,Dictionary
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientdictionary-post-openapi.md
-- name: Lykke Get API Client Properties Isuserfromus
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Client Properties Isuserfromus
+  x-api-slug: apiclientpropertiesisuserfromus-get
   description: Get api client properties isuserfromus.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/properties/isUserFromUS
-  tags: Client,Properties,Isuserfromus
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientpropertiesisuserfromus-get-openapi.md
-- name: Lykke Add API Client Properties Isuserfromus
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Client Properties Isuserfromus
+  x-api-slug: apiclientpropertiesisuserfromus-post
   description: Add api client properties isuserfromus.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/properties/isUserFromUS
-  tags: Client,Properties,Isuserfromus
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientpropertiesisuserfromus-post-openapi.md
-- name: Lykke Get API Client Pendingactions
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Client Pendingactions
+  x-api-slug: apiclientpendingactions-get
   description: Get api client pendingactions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/pendingActions
-  tags: Client,Pendingactions
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientpendingactions-get-openapi.md
-- name: Lykke Add API Clientfirstnamelastname
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Clientfirstnamelastname
+  x-api-slug: apiclientfirstnamelastname-post
   description: Add api clientfirstnamelastname.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientFirstNameLastName
-  tags: Clientfirstnamelastname
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientfirstnamelastname-post-openapi.md
-- name: Lykke Add API Clientfullname
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Clientfullname
+  x-api-slug: apiclientfullname-post
   description: Add api clientfullname.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientFullName
-  tags: Clientfullname
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientfullname-post-openapi.md
-- name: Lykke Add API Clientkeys
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Clientkeys
+  x-api-slug: apiclientkeys-post
   description: Add api clientkeys.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientKeys
-  tags: Clientkeys
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientkeys-post-openapi.md
-- name: Lykke Add API Clientlog
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Clientlog
+  x-api-slug: apiclientlog-post
   description: Add api clientlog.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientLog
-  tags: Clientlog
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientlog-post-openapi.md
-- name: Lykke Add API Clientphone
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Clientphone
+  x-api-slug: apiclientphone-post
   description: Add api clientphone.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientPhone
-  tags: Clientphone
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientphone-post-openapi.md
-- name: Lykke Get API Clientstate
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Clientstate
+  x-api-slug: apiclientstate-get
   description: Get api clientstate.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientState
-  tags: Clientstate
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientstate-get-openapi.md
-- name: Lykke Get API Clienttrading Termsofuse
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Clienttrading Termsofuse
+  x-api-slug: apiclienttradingtermsofuse-get
   description: Get api clienttrading termsofuse.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientTrading/termsOfUse
-  tags: Clienttrading,Termsofuse
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclienttradingtermsofuse-get-openapi.md
-- name: Lykke Add API Clienttrading Termsofuse Margin Agree
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Clienttrading Termsofuse Margin Agree
+  x-api-slug: apiclienttradingtermsofusemarginagree-post
   description: Add api clienttrading termsofuse margin agree.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ClientTrading/termsOfUse/margin/agree
-  tags: Clienttrading,Termsofuse,Margin,Agree
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclienttradingtermsofusemarginagree-post-openapi.md
-- name: Lykke Get API Countryphonecodes
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Countryphonecodes
+  x-api-slug: apicountryphonecodes-get
   description: Get api countryphonecodes.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/CountryPhoneCodes
-  tags: Countryphonecodes
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apicountryphonecodes-get-openapi.md
-- name: Lykke Get API Client Dialogs
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Client Dialogs
+  x-api-slug: apiclientdialogs-get
   description: Get api client dialogs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/client/Dialogs
-  tags: Client,Dialogs
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientdialogs-get-openapi.md
-- name: Lykke Add API Client Dialogs
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Client Dialogs
+  x-api-slug: apiclientdialogs-post
   description: Add api client dialogs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/client/Dialogs
-  tags: Client,Dialogs
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiclientdialogs-post-openapi.md
-- name: Lykke Get API Dictionary Key
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Dictionary Key
+  x-api-slug: apidictionarykey-get
   description: Get api dictionary key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Dictionary/{key}
-  tags: Dictionary,Key
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apidictionarykey-get-openapi.md
-- name: Lykke Get API Dictionary
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Dictionary
+  x-api-slug: apidictionary-get
   description: Get api dictionary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Dictionary
-  tags: Dictionary
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apidictionary-get-openapi.md
-- name: Lykke Get API Dicts
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Dicts
+  x-api-slug: apidicts-get
   description: Get api dicts.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Dicts
-  tags: Dicts
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apidicts-get-openapi.md
-- name: Lykke Get API Dicts Assets
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Dicts Assets
+  x-api-slug: apidictsassets-get
   description: Get api dicts assets.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Dicts/assets
-  tags: Dicts,Assets
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apidictsassets-get-openapi.md
-- name: Lykke Get API Dicts Updates
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Dicts Updates
+  x-api-slug: apidictsupdates-get
   description: Get api dicts updates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Dicts/updates
-  tags: Dicts,S
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apidictsupdates-get-openapi.md
-- name: Lykke Add API Email Privatewalletaddress
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Email Privatewalletaddress
+  x-api-slug: apiemailprivatewalletaddress-post
   description: Add api email privatewalletaddress.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Email/PrivateWalletAddress
-  tags: Email,Privatewalletaddress
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiemailprivatewalletaddress-post-openapi.md
-- name: Lykke Add API Emailmewalletaddress
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Emailmewalletaddress
+  x-api-slug: apiemailmewalletaddress-post
   description: Add api emailmewalletaddress.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/EmailMeWalletAddress
-  tags: Emailmewalletaddress
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiemailmewalletaddress-post-openapi.md
-- name: Lykke Get API Emailverification
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Emailverification
+  x-api-slug: apiemailverification-get
   description: Get api emailverification.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/EmailVerification
-  tags: Emailverification
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiemailverification-get-openapi.md
-- name: Lykke Add API Emailverification
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Emailverification
+  x-api-slug: apiemailverification-post
   description: Add api emailverification.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/EmailVerification
-  tags: Emailverification
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiemailverification-post-openapi.md
-- name: Lykke Add API Encodedprivatekey
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Encodedprivatekey
+  x-api-slug: apiencodedprivatekey-post
   description: Add api encodedprivatekey.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/EncodedPrivateKey
-  tags: Encodedprivatekey
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiencodedprivatekey-post-openapi.md
-- name: Lykke Add API Ethereum Operation Transfer
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Operation Transfer
+  x-api-slug: apiethereumoperationidtransfer-post
   description: Add api ethereum operation transfer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/{operationId}/transfer
-  tags: Ethereum,Operation,Transfer
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumoperationidtransfer-post-openapi.md
-- name: Lykke Add API Ethereum Trade
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Trade
+  x-api-slug: apiethereumtrade-post
   description: Add api ethereum trade.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/trade
-  tags: Ethereum,Trade
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumtrade-post-openapi.md
-- name: Lykke Add API Ethereum Cashout
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Cashout
+  x-api-slug: apiethereumcashout-post
   description: Add api ethereum cashout.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/cashout
-  tags: Ethereum,Cashout
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumcashout-post-openapi.md
-- name: Lykke Add API Ethereum Operation Hash
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Operation Hash
+  x-api-slug: apiethereumoperationidhash-post
   description: Add api ethereum operation hash.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/{operationId}/hash
-  tags: Ethereum,Operation,Hash
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumoperationidhash-post-openapi.md
-- name: Lykke Get API Ethereum Transfers
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Ethereum Transfers
+  x-api-slug: apiethereumtransfers-get
   description: Get api ethereum transfers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/transfers
-  tags: Ethereum,Transfers
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumtransfers-get-openapi.md
-- name: Lykke Add API Ethereum Transfers
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Transfers
+  x-api-slug: apiethereumtransfers-post
   description: Add api ethereum transfers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/transfers
-  tags: Ethereum,Transfers
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumtransfers-post-openapi.md
-- name: Lykke Add API Ethereum Hash
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Hash
+  x-api-slug: apiethereumhash-post
   description: Add api ethereum hash.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/hash
-  tags: Ethereum,Hash
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumhash-post-openapi.md
-- name: Lykke Add API Ethereum Privatewallet Generatetransaction
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Privatewallet Generatetransaction
+  x-api-slug: apiethereumprivatewalletgeneratetransaction-post
   description: Add api ethereum privatewallet generatetransaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/privateWallet/generateTransaction
-  tags: Ethereum,Privatewallet,Generatetransaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumprivatewalletgeneratetransaction-post-openapi.md
-- name: Lykke Add API Ethereum Privatewallet Broadcasttransaction
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Privatewallet Broadcasttransaction
+  x-api-slug: apiethereumprivatewalletbroadcasttransaction-post
   description: Add api ethereum privatewallet broadcasttransaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/privateWallet/broadcastTransaction
-  tags: Ethereum,Privatewallet,Broadcasttransaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumprivatewalletbroadcasttransaction-post-openapi.md
-- name: Lykke Add API Ethereum Privatewallet Estimatetransaction
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Ethereum Privatewallet Estimatetransaction
+  x-api-slug: apiethereumprivatewalletestimatetransaction-post
   description: Add api ethereum privatewallet estimatetransaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/privateWallet/estimateTransaction
-  tags: Ethereum,Privatewallet,Estimatetransaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumprivatewalletestimatetransaction-post-openapi.md
-- name: Lykke Get API Ethereum Getcurrentnetworkgas
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Ethereum Getcurrentnetworkgas
+  x-api-slug: apiethereumgetcurrentnetworkgas-get
   description: Get api ethereum getcurrentnetworkgas.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/getCurrentNetworkGas
-  tags: Ethereum,Currentnetworkgas
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumgetcurrentnetworkgas-get-openapi.md
-- name: Lykke Get API Ethereum Tx Transactionhash
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Ethereum Tx Transactionhash
+  x-api-slug: apiethereumtxtransactionhash-get
   description: Get api ethereum tx transactionhash.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/tx/{transactionHash}
-  tags: Ethereum,Tx,Transactionhash
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumtxtransactionhash-get-openapi.md
-- name: Lykke Get API Ethereum History Address
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Ethereum History Address
+  x-api-slug: apiethereumhistoryaddress-get
   description: Get api ethereum history address.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/history/{address}
-  tags: Ethereum,History,Ress
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumhistoryaddress-get-openapi.md
-- name: Lykke Get API Ethereum Settings
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Ethereum Settings
+  x-api-slug: apiethereumsettings-get
   description: Get api ethereum settings.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/settings
-  tags: Ethereum,Settings
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiethereumsettings-get-openapi.md
-- name: Lykke Get API Exchangeinfo
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Exchangeinfo
+  x-api-slug: apiexchangeinfo-get
   description: Get api exchangeinfo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/ExchangeInfo
-  tags: Exchangeinfo
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiexchangeinfo-get-openapi.md
-- name: Lykke Add API Formatcreditvoucherscontent
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Formatcreditvoucherscontent
+  x-api-slug: apiformatcreditvoucherscontent-post
   description: Add api formatcreditvoucherscontent.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/FormatCreditVouchersContent
-  tags: Formatcreditvoucherscontent
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiformatcreditvoucherscontent-post-openapi.md
-- name: Lykke Add API Operations Forwardwithdrawal
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Operations Forwardwithdrawal
+  x-api-slug: apioperationsforwardwithdrawal-post
   description: Add api operations forwardwithdrawal.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/operations/ForwardWithdrawal
-  tags: Operations,Forwardwithdrawal
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsforwardwithdrawal-post-openapi.md
-- name: Lykke Add API Generatetransfertransaction
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Generatetransfertransaction
+  x-api-slug: apigeneratetransfertransaction-post
   description: Add api generatetransfertransaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/GenerateTransferTransaction
-  tags: Generatetransfertransaction
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apigeneratetransfertransaction-post-openapi.md
-- name: Lykke Get API Graphperiods
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Graphperiods
+  x-api-slug: apigraphperiods-get
   description: Get api graphperiods.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/GraphPeriods
-  tags: Graphperiods
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apigraphperiods-get-openapi.md
-- name: Lykke Add API Hashedpwd
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Hashedpwd
+  x-api-slug: apihashedpwd-post
   description: Add api hashedpwd.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/HashedPwd
-  tags: Hashedpwd
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihashedpwd-post-openapi.md
-- name: Lykke Get API History
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History
+  x-api-slug: apihistory-get
   description: Get api history.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History
-  tags: History
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihistory-get-openapi.md
-- name: Lykke Get API History Limit Trades
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History Limit Trades
+  x-api-slug: apihistorylimittrades-get
   description: Get api history limit trades.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History/limit/trades
-  tags: History,Limit,Trades
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihistorylimittrades-get-openapi.md
-- name: Lykke Get API History Limit Order
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History Limit Order
+  x-api-slug: apihistorylimitorder-get
   description: Get api history limit order.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History/limit/order
-  tags: History,Limit,Order
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihistorylimitorder-get-openapi.md
-- name: Lykke Get API History Limit History
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History Limit History
+  x-api-slug: apihistorylimithistory-get
   description: Get api history limit history.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History/limit/history
-  tags: History,Limit,History
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihistorylimithistory-get-openapi.md
-- name: Lykke Add API Hotwallet Marketorder
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Hotwallet Marketorder
+  x-api-slug: apihotwalletmarketorder-post
   description: Add api hotwallet marketorder.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/HotWallet/marketOrder
-  tags: Hotwallet,Marketorder
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihotwalletmarketorder-post-openapi.md
-- name: Lykke Add API Hotwallet Limitorder
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Hotwallet Limitorder
+  x-api-slug: apihotwalletlimitorder-post
   description: Add api hotwallet limitorder.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/HotWallet/limitOrder
-  tags: Hotwallet,Limitorder
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihotwalletlimitorder-post-openapi.md
-- name: Lykke Add API Hotwallet Cashout
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Hotwallet Cashout
+  x-api-slug: apihotwalletcashout-post
   description: Add api hotwallet cashout.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/HotWallet/cashout
-  tags: Hotwallet,Cashout
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihotwalletcashout-post-openapi.md
-- name: Lykke Get API Hotwallet Addresses Destinationaddress Asset Vality
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Hotwallet Addresses Destinationaddress Asset Vality
+  x-api-slug: apihotwalletaddressesdestinationaddressassetidvalidity-get
   description: Get api hotwallet addresses destinationaddress asset vality.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/HotWallet/addresses/{destinationAddress}/{assetId}/validity
-  tags: Hotwallet,Resses,Destinationaddress,Asset,Vality
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apihotwalletaddressesdestinationaddressassetidvalidity-get-openapi.md
-- name: Lykke Get API Icocoinssold
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Icocoinssold
+  x-api-slug: apiicocoinssold-get
   description: Get api icocoinssold.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/IcoCoinsSold
-  tags: Icocoinssold
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiicocoinssold-get-openapi.md
-- name: Lykke Add API Invertedassetpairs
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Invertedassetpairs
+  x-api-slug: apiinvertedassetpairs-post
   description: Add api invertedassetpairs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/InvertedAssetPairs
-  tags: Invertedassetpairs
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiinvertedassetpairs-post-openapi.md
-- name: Lykke Get API Isalive
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Isalive
+  x-api-slug: apiisalive-get
   description: Get api isalive.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/IsAlive
-  tags: Isalive
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiisalive-get-openapi.md
-- name: Lykke Get API Ispinentered
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Ispinentered
+  x-api-slug: apiispinentered-get
   description: Get api ispinentered.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/IsPinEntered
-  tags: Ispinentered
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiispinentered-get-openapi.md
-- name: Lykke Get API Issuers
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Issuers
+  x-api-slug: apiissuers-get
   description: Get api issuers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Issuers
-  tags: Issuers
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiissuers-get-openapi.md
-- name: Lykke Get API Issuers
-  x-api-slug: lykke
-  description: Get api issuers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Issuers/{id}
-  tags: Issuers
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiissuersid-get-openapi.md
-- name: Lykke Get API Kycdocuments
-  x-api-slug: lykke
-  description: Get api kycdocuments.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycDocuments
-  tags: Kycdocuments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocuments-get-openapi.md
-- name: Lykke Add API Kycdocuments
-  x-api-slug: lykke
-  description: Add api kycdocuments.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycDocuments
-  tags: Kycdocuments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocuments-post-openapi.md
-- name: Lykke Get API Kycdocumentsbin
-  x-api-slug: lykke
-  description: Get api kycdocumentsbin.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycDocumentsBin/{id}
-  tags: Kycdocumentsbin
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocumentsbinid-get-openapi.md
-- name: Lykke Add API Kycdocumentsbin
-  x-api-slug: lykke
-  description: Add api kycdocumentsbin.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycDocumentsBin
-  tags: Kycdocumentsbin
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocumentsbin-post-openapi.md
-- name: Lykke Add API Kycdocumentupload
-  x-api-slug: lykke
-  description: Add api kycdocumentupload.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycDocumentUpload
-  tags: Kycdocumentupload
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocumentupload-post-openapi.md
-- name: Lykke Get API Kycforasset
-  x-api-slug: lykke
-  description: Get api kycforasset.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycForAsset/{id}
-  tags: Kycforasset
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycforassetid-get-openapi.md
-- name: Lykke Get API Kycstatus
-  x-api-slug: lykke
-  description: Get api kycstatus.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycStatus
-  tags: Kycstatus
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycstatus-get-openapi.md
-- name: Lykke Add API Kycstatus
-  x-api-slug: lykke
-  description: Add api kycstatus.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycStatus
-  tags: Kycstatus
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycstatus-post-openapi.md
-- name: Lykke Get API Lastbaseassets
-  x-api-slug: lykke
-  description: Get api lastbaseassets.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/LastBaseAssets
-  tags: Lastbaseassets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apilastbaseassets-get-openapi.md
-- name: Lykke Get API Offchain Limit List
-  x-api-slug: lykke
-  description: Get api offchain limit list.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/limit/list
-  tags: Offchain,Limit,List
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimitlist-get-openapi.md
-- name: Lykke Get API Offchain Limit Count
-  x-api-slug: lykke
-  description: Get api offchain limit count.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/limit/count
-  tags: Offchain,Limit,Count
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimitcount-get-openapi.md
-- name: Lykke Get API Lykkenews
-  x-api-slug: lykke
-  description: Get api lykkenews.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/LykkeNews
-  tags: Lykkenews
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apilykkenews-get-openapi.md
-- name: Lykke Add API Margintrading Account Balance
-  x-api-slug: lykke
-  description: Add api margintrading account balance.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MarginTrading/account/balance
-  tags: Margintrading,Account,Balance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimargintradingaccountbalance-post-openapi.md
-- name: Lykke Delete API Margintrading Account Reset Account
-  x-api-slug: lykke
-  description: Delete api margintrading account reset account.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MarginTrading/account/reset/{accountId}
-  tags: Margintrading,Account,Reset,Account
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimargintradingaccountresetaccountid-delete-openapi.md
-- name: Lykke Add API Margintrading Cashoutswift
-  x-api-slug: lykke
-  description: Add api margintrading cashoutswift.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MarginTrading/cashOutSwift
-  tags: Margintrading,Cashoutswift
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimargintradingcashoutswift-post-openapi.md
-- name: Lykke Add API Market Converter Tobase
-  x-api-slug: lykke
-  description: Add api market converter tobase.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Market/converter/tobase
-  tags: Market,Converter,Tobase
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimarketconvertertobase-post-openapi.md
-- name: Lykke Add API Mylykkecashinemail
-  x-api-slug: lykke
-  description: Add api mylykkecashinemail.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MyLykkeCashInEmail
-  tags: Mylykkecashinemail
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimylykkecashinemail-post-openapi.md
-- name: Lykke Get API Mylykkeinfo
-  x-api-slug: lykke
-  description: Get api mylykkeinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MyLykkeInfo
-  tags: Mylykkeinfo
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimylykkeinfo-get-openapi.md
-- name: Lykke Get API Mylykkesettings
-  x-api-slug: lykke
-  description: Get api mylykkesettings.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MyLykkeSettings
-  tags: Mylykkesettings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimylykkesettings-get-openapi.md
-- name: Lykke Get API Offchain Requests
-  x-api-slug: lykke
-  description: Get api offchain requests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/requests
-  tags: Offchain,Requests
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainrequests-get-openapi.md
-- name: Lykke Add API Offchain Trade
-  x-api-slug: lykke
-  description: Add api offchain trade.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/trade
-  tags: Offchain,Trade
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaintrade-post-openapi.md
-- name: Lykke Add API Offchain Limit Trade
-  x-api-slug: lykke
-  description: Add api offchain limit trade.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/limit/trade
-  tags: Offchain,Limit,Trade
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimittrade-post-openapi.md
-- name: Lykke Add API Offchain Limit Cancel
-  x-api-slug: lykke
-  description: Add api offchain limit cancel.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/limit/cancel
-  tags: Offchain,Limit,Cancel
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimitcancel-post-openapi.md
-- name: Lykke Add API Offchain Processchannel
-  x-api-slug: lykke
-  description: Add api offchain processchannel.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/processchannel
-  tags: Offchain,Processchannel
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainprocesschannel-post-openapi.md
-- name: Lykke Add API Offchain Finalizetransfer
-  x-api-slug: lykke
-  description: Add api offchain finalizetransfer.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/finalizetransfer
-  tags: Offchain,Finalizetransfer
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainfinalizetransfer-post-openapi.md
-- name: Lykke Add API Offchain Requesttransfer
-  x-api-slug: lykke
-  description: Add api offchain requesttransfer.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/requestTransfer
-  tags: Offchain,Requesttransfer
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainrequesttransfer-post-openapi.md
-- name: Lykke Get API Offchain Channelkey
-  x-api-slug: lykke
-  description: Get api offchain channelkey.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/channelkey
-  tags: Offchain,Channelkey
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainchannelkey-get-openapi.md
-- name: Lykke Add API Offchain Transfertomargin
-  x-api-slug: lykke
-  description: Add api offchain transfertomargin.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/transferToMargin
-  tags: Offchain,Transfertomargin
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaintransfertomargin-post-openapi.md
-- name: Lykke Add API Offchain Operation Transfertotrusted
-  x-api-slug: lykke
-  description: Add api offchain operation transfertotrusted.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/{operationId}/transferToTrusted
-  tags: Offchain,Operation,Transfertotrusted
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainoperationidtransfertotrusted-post-openapi.md
-- name: Lykke Add API Offchain Cashout
-  x-api-slug: lykke
-  description: Add api offchain cashout.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/cashout
-  tags: Offchain,Cashout
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashout-post-openapi.md
-- name: Lykke Get API Offchain Cashout Swift
-  x-api-slug: lykke
-  description: Get api offchain cashout swift.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/cashout/swift
-  tags: Offchain,Cashout,Swift
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashoutswift-get-openapi.md
-- name: Lykke Add API Offchain Cashout Swift
-  x-api-slug: lykke
-  description: Add api offchain cashout swift.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/cashout/swift
-  tags: Offchain,Cashout,Swift
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashoutswift-post-openapi.md
-- name: Lykke Add API Offchain Cashout Forward
-  x-api-slug: lykke
-  description: Add api offchain cashout forward.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/cashout/forward
-  tags: Offchain,Cashout,Forward
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashoutforward-post-openapi.md
-- name: Lykke Get API Operations Unsignedtransactions
-  x-api-slug: lykke
-  description: Get api operations unsignedtransactions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/unsignedTransactions
-  tags: Operations,Unsignedtransactions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsunsignedtransactions-get-openapi.md
-- name: Lykke Add API Operations Unsignedtransactions
-  x-api-slug: lykke
-  description: Add api operations unsignedtransactions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/unsignedTransactions
-  tags: Operations,Unsignedtransactions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsunsignedtransactions-post-openapi.md
-- name: Lykke Get API Operations List Status
-  x-api-slug: lykke
-  description: Get api operations list status.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/list/{status}
-  tags: Operations,List,Status
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsliststatus-get-openapi.md
-- name: Lykke Get API Operations
-  x-api-slug: lykke
-  description: Get api operations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/{id}
-  tags: Operations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsid-get-openapi.md
-- name: Lykke Add API Operations  Cancel
-  x-api-slug: lykke
-  description: Add api operations  cancel.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/{id}/cancel
-  tags: Operations,,Cancel
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsidcancel-post-openapi.md
-- name: Lykke Add API Operations Cancel
-  x-api-slug: lykke
-  description: Add api operations cancel.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/cancel
-  tags: Operations,Cancel
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationscancel-post-openapi.md
-- name: Lykke Get API Orderbook
-  x-api-slug: lykke
-  description: Get api orderbook.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/OrderBook/{id}
-  tags: Orderbook
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiorderbookid-get-openapi.md
-- name: Lykke Get API Personaldata
-  x-api-slug: lykke
-  description: Get api personaldata.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PersonalData
-  tags: Personaldata
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipersonaldata-get-openapi.md
-- name: Lykke Get API Pinsecurity
-  x-api-slug: lykke
-  description: Get api pinsecurity.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PinSecurity
-  tags: Pinsecurity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipinsecurity-get-openapi.md
-- name: Lykke Add API Pinsecurity
-  x-api-slug: lykke
-  description: Add api pinsecurity.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PinSecurity
-  tags: Pinsecurity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipinsecurity-post-openapi.md
-- name: Lykke Get API Privatekeyownershipmsg
-  x-api-slug: lykke
-  description: Get api privatekeyownershipmsg.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateKeyOwnershipMsg
-  tags: Privatekeyownershipmsg
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatekeyownershipmsg-get-openapi.md
-- name: Lykke Add API Privatekeyownershipmsg
-  x-api-slug: lykke
-  description: Add api privatekeyownershipmsg.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateKeyOwnershipMsg
-  tags: Privatekeyownershipmsg
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatekeyownershipmsg-post-openapi.md
-- name: Lykke Get API Privatewallet
-  x-api-slug: lykke
-  description: Get api privatewallet.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWallet
-  tags: Privatewallet
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-get-openapi.md
-- name: Lykke Put API Privatewallet
-  x-api-slug: lykke
-  description: Put api privatewallet.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWallet
-  tags: Privatewallet
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-put-openapi.md
-- name: Lykke Add API Privatewallet
-  x-api-slug: lykke
-  description: Add api privatewallet.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWallet
-  tags: Privatewallet
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-post-openapi.md
-- name: Lykke Delete API Privatewallet
-  x-api-slug: lykke
-  description: Delete api privatewallet.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWallet
-  tags: Privatewallet
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-delete-openapi.md
-- name: Lykke Get API Privatewallet
-  x-api-slug: lykke
-  description: Get api privatewallet.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWallet/{id}
-  tags: Privatewallet
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletid-get-openapi.md
-- name: Lykke Add API Privatewallet Key
-  x-api-slug: lykke
-  description: Add api privatewallet key.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWallet/key
-  tags: Privatewallet,Key
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletkey-post-openapi.md
-- name: Lykke Add API Privatewalletbackup
-  x-api-slug: lykke
-  description: Add api privatewalletbackup.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWalletBackup
-  tags: Privatewalletbackup
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletbackup-post-openapi.md
-- name: Lykke Get API Privatewalletbalance
-  x-api-slug: lykke
-  description: Get api privatewalletbalance.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWalletBalance
-  tags: Privatewalletbalance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletbalance-get-openapi.md
-- name: Lykke Get API Privatewallethistory
-  x-api-slug: lykke
-  description: Get api privatewallethistory.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWalletHistory
-  tags: Privatewallethistory
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallethistory-get-openapi.md
-- name: Lykke Get API Pubkeyaddressvalation
-  x-api-slug: lykke
-  description: Get api pubkeyaddressvalation.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PubkeyAddressValidation
-  tags: Pubkeyaddressvalation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipubkeyaddressvalidation-get-openapi.md
-- name: Lykke Add API Purchaseasset
-  x-api-slug: lykke
-  description: Add api purchaseasset.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PurchaseAsset
-  tags: Purchaseasset
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipurchaseasset-post-openapi.md
-- name: Lykke Get API Pushsettings
-  x-api-slug: lykke
-  description: Get api pushsettings.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PushSettings
-  tags: Pushsettings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipushsettings-get-openapi.md
-- name: Lykke Add API Pushsettings
-  x-api-slug: lykke
-  description: Add api pushsettings.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/PushSettings
-  tags: Pushsettings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipushsettings-post-openapi.md
-- name: Lykke Add API Recoverysmsconfirmation
-  x-api-slug: lykke
-  description: Add api recoverysmsconfirmation.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RecoverySmsConfirmation
-  tags: Recoverysmsconfirmation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirecoverysmsconfirmation-post-openapi.md
-- name: Lykke Get API Refundaddress
-  x-api-slug: lykke
-  description: Get api refundaddress.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RefundAddress
-  tags: Refundaddress
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundaddress-get-openapi.md
-- name: Lykke Add API Refundaddress
-  x-api-slug: lykke
-  description: Add api refundaddress.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RefundAddress
-  tags: Refundaddress
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundaddress-post-openapi.md
-- name: Lykke Get API Refundsettings
-  x-api-slug: lykke
-  description: Get api refundsettings.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RefundSettings
-  tags: Refundsettings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundsettings-get-openapi.md
-- name: Lykke Add API Refundsettings
-  x-api-slug: lykke
-  description: Add api refundsettings.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RefundSettings
-  tags: Refundsettings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundsettings-post-openapi.md
-- name: Lykke Get API Registration
-  x-api-slug: lykke
-  description: Get api registration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Registration
-  tags: Registration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiregistration-get-openapi.md
-- name: Lykke Add API Registration
-  x-api-slug: lykke
-  description: Add api registration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Registration
-  tags: Registration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiregistration-post-openapi.md
-- name: Lykke Add API Remindpasswordemail
-  x-api-slug: lykke
-  description: Add api remindpasswordemail.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RemindPasswordEmail
-  tags: Remindpasswordemail
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiremindpasswordemail-post-openapi.md
-- name: Lykke Add API Requestvoicecall
-  x-api-slug: lykke
-  description: Add api requestvoicecall.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RequestVoiceCall
-  tags: Requestvoicecall
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirequestvoicecall-post-openapi.md
-- name: Lykke Get API Restrictedcountries
-  x-api-slug: lykke
-  description: Get api restrictedcountries.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RestrictedCountries
-  tags: Restrictedcountries
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirestrictedcountries-get-openapi.md
-- name: Lykke Add API Sendblockchainemail
-  x-api-slug: lykke
-  description: Add api sendblockchainemail.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/SendBlockchainEmail
-  tags: Sendblockchainemail
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisendblockchainemail-post-openapi.md
-- name: Lykke Get API Servertime
-  x-api-slug: lykke
-  description: Get api servertime.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/ServerTime
-  tags: Servertime
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiservertime-get-openapi.md
-- name: Lykke Add API Settingsignorder
-  x-api-slug: lykke
-  description: Add api settingsignorder.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/SettingSignOrder
-  tags: Settingsignorder
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisettingsignorder-post-openapi.md
-- name: Lykke Get API Signatureverificationtoken Keyconfirmation
-  x-api-slug: lykke
-  description: Get api signatureverificationtoken keyconfirmation.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/signatureVerificationToken/KeyConfirmation
-  tags: Signatureverificationtoken,Keyconfirmation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignatureverificationtokenkeyconfirmation-get-openapi.md
-- name: Lykke Add API Signatureverificationtoken Keyconfirmation
-  x-api-slug: lykke
-  description: Add api signatureverificationtoken keyconfirmation.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/signatureVerificationToken/KeyConfirmation
-  tags: Signatureverificationtoken,Keyconfirmation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignatureverificationtokenkeyconfirmation-post-openapi.md
-- name: Lykke Get API Signrequest
-  x-api-slug: lykke
-  description: Get api signrequest.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/SignRequest
-  tags: Signrequest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignrequest-get-openapi.md
-- name: Lykke Add API Signrequest
-  x-api-slug: lykke
-  description: Add api signrequest.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/SignRequest
-  tags: Signrequest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignrequest-post-openapi.md
-- name: Lykke Get API Swiftcredentials Asset
-  x-api-slug: lykke
-  description: Get api swiftcredentials asset.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/SwiftCredentials/{assetId}
-  tags: Swiftcredentials,Asset
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiswiftcredentialsassetid-get-openapi.md
-- name: Lykke Get API Swiftcredentials
-  x-api-slug: lykke
-  description: Get api swiftcredentials.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/SwiftCredentials
-  tags: Swiftcredentials
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiswiftcredentials-get-openapi.md
-- name: Lykke Get API Transactions
-  x-api-slug: lykke
-  description: Get api transactions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Transactions
-  tags: Transactions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apitransactions-get-openapi.md
-- name: Lykke Get API Transferinfo
-  x-api-slug: lykke
-  description: Get api transferinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/TransferInfo
-  tags: Transferinfo
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apitransferinfo-get-openapi.md
-- name: Lykke Add API Trustedwallets Operation Transfer
-  x-api-slug: lykke
-  description: Add api trustedwallets operation transfer.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/TrustedWallets/{operationId}/transfer
-  tags: Trustedwallets,Operation,Transfer
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apitrustedwalletsoperationidtransfer-post-openapi.md
-- name: Lykke Get API Utils Isusorcanadanumber Phonenumber
-  x-api-slug: lykke
-  description: Get api utils isusorcanadanumber phonenumber.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Utils/isUSorCanadaNumber/{phoneNumber}
-  tags: Utils,Isusorcanadanumber,Phonenumber
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiutilsisusorcanadanumberphonenumber-get-openapi.md
-- name: Lykke Get Home Version
-  x-api-slug: lykke
-  description: Get home version.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////home/Version
-  tags: Home,Version
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/homeversion-get-openapi.md
-- name: Lykke Add API Walletmigration
-  x-api-slug: lykke
-  description: Add api walletmigration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/WalletMigration
-  tags: Walletmigration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwalletmigration-post-openapi.md
-- name: Lykke Get API Wallets
-  x-api-slug: lykke
-  description: Get api wallets.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Wallets
-  tags: Wallets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwallets-get-openapi.md
-- name: Lykke Add API Wallets
-  x-api-slug: lykke
-  description: Add api wallets.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Wallets
-  tags: Wallets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwallets-post-openapi.md
-- name: Lykke Get API Wallets
-  x-api-slug: lykke
-  description: Get api wallets.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Wallets/{id}
-  tags: Wallets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwalletsid-get-openapi.md
-- name: Lykke Add API Wallets Depositaddress Asset
-  x-api-slug: lykke
-  description: Add api wallets depositaddress asset.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Wallets/depositaddress/{assetId}
-  tags: Wallets,Depositaddress,Asset
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwalletsdepositaddressassetid-post-openapi.md
-- name: Lykke Get API Watchlists
-  x-api-slug: lykke
-  description: Get api watchlists.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/WatchLists
-  tags: Watchlists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlists-get-openapi.md
-- name: Lykke Add API Watchlists
-  x-api-slug: lykke
-  description: Add api watchlists.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/WatchLists
-  tags: Watchlists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlists-post-openapi.md
-- name: Lykke Get API Watchlists
-  x-api-slug: lykke
-  description: Get api watchlists.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/WatchLists/{id}
-  tags: Watchlists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlistsid-get-openapi.md
-- name: Lykke Put API Watchlists
-  x-api-slug: lykke
-  description: Put api watchlists.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/WatchLists/{id}
-  tags: Watchlists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlistsid-put-openapi.md
-- name: Lykke Delete API Watchlists
-  x-api-slug: lykke
-  description: Delete api watchlists.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/WatchLists/{id}
-  tags: Watchlists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlistsid-delete-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: Lykke is a movement to build one global marketplace that is a level
-    playing field where everyone has access.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
   baseURL: https:////
-  tags: Lykke
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiissuers-get-openapi.md
+- name: Wallet_Api - Get API Issuers
+  x-api-slug: apiissuersid-get
+  description: Get api issuers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiissuersid-get-openapi.md
+- name: Wallet_Api - Get API Kycdocuments
+  x-api-slug: apikycdocuments-get
+  description: Get api kycdocuments.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocuments-get-openapi.md
+- name: Wallet_Api - Add API Kycdocuments
+  x-api-slug: apikycdocuments-post
+  description: Add api kycdocuments.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocuments-post-openapi.md
+- name: Wallet_Api - Get API Kycdocumentsbin
+  x-api-slug: apikycdocumentsbinid-get
+  description: Get api kycdocumentsbin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocumentsbinid-get-openapi.md
+- name: Wallet_Api - Add API Kycdocumentsbin
+  x-api-slug: apikycdocumentsbin-post
+  description: Add api kycdocumentsbin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocumentsbin-post-openapi.md
+- name: Wallet_Api - Add API Kycdocumentupload
+  x-api-slug: apikycdocumentupload-post
+  description: Add api kycdocumentupload.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycdocumentupload-post-openapi.md
+- name: Wallet_Api - Get API Kycforasset
+  x-api-slug: apikycforassetid-get
+  description: Get api kycforasset.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycforassetid-get-openapi.md
+- name: Wallet_Api - Get API Kycstatus
+  x-api-slug: apikycstatus-get
+  description: Get api kycstatus.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycstatus-get-openapi.md
+- name: Wallet_Api - Add API Kycstatus
+  x-api-slug: apikycstatus-post
+  description: Add api kycstatus.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apikycstatus-post-openapi.md
+- name: Wallet_Api - Get API Lastbaseassets
+  x-api-slug: apilastbaseassets-get
+  description: Get api lastbaseassets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apilastbaseassets-get-openapi.md
+- name: Wallet_Api - Get API Offchain Limit List
+  x-api-slug: apioffchainlimitlist-get
+  description: Get api offchain limit list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimitlist-get-openapi.md
+- name: Wallet_Api - Get API Offchain Limit Count
+  x-api-slug: apioffchainlimitcount-get
+  description: Get api offchain limit count.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimitcount-get-openapi.md
+- name: Wallet_Api - Get API Lykkenews
+  x-api-slug: apilykkenews-get
+  description: Get api lykkenews.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apilykkenews-get-openapi.md
+- name: Wallet_Api - Add API Margintrading Account Balance
+  x-api-slug: apimargintradingaccountbalance-post
+  description: Add api margintrading account balance.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimargintradingaccountbalance-post-openapi.md
+- name: Wallet_Api - Delete API Margintrading Account Reset Account
+  x-api-slug: apimargintradingaccountresetaccountid-delete
+  description: Delete api margintrading account reset account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimargintradingaccountresetaccountid-delete-openapi.md
+- name: Wallet_Api - Add API Margintrading Cashoutswift
+  x-api-slug: apimargintradingcashoutswift-post
+  description: Add api margintrading cashoutswift.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimargintradingcashoutswift-post-openapi.md
+- name: Wallet_Api - Add API Market Converter Tobase
+  x-api-slug: apimarketconvertertobase-post
+  description: Add api market converter tobase.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimarketconvertertobase-post-openapi.md
+- name: Wallet_Api - Add API Mylykkecashinemail
+  x-api-slug: apimylykkecashinemail-post
+  description: Add api mylykkecashinemail.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimylykkecashinemail-post-openapi.md
+- name: Wallet_Api - Get API Mylykkeinfo
+  x-api-slug: apimylykkeinfo-get
+  description: Get api mylykkeinfo.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimylykkeinfo-get-openapi.md
+- name: Wallet_Api - Get API Mylykkesettings
+  x-api-slug: apimylykkesettings-get
+  description: Get api mylykkesettings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apimylykkesettings-get-openapi.md
+- name: Wallet_Api - Get API Offchain Requests
+  x-api-slug: apioffchainrequests-get
+  description: Get api offchain requests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainrequests-get-openapi.md
+- name: Wallet_Api - Add API Offchain Trade
+  x-api-slug: apioffchaintrade-post
+  description: Add api offchain trade.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaintrade-post-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Trade
+  x-api-slug: apioffchainlimittrade-post
+  description: Add api offchain limit trade.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimittrade-post-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Cancel
+  x-api-slug: apioffchainlimitcancel-post
+  description: Add api offchain limit cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainlimitcancel-post-openapi.md
+- name: Wallet_Api - Add API Offchain Processchannel
+  x-api-slug: apioffchainprocesschannel-post
+  description: Add api offchain processchannel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainprocesschannel-post-openapi.md
+- name: Wallet_Api - Add API Offchain Finalizetransfer
+  x-api-slug: apioffchainfinalizetransfer-post
+  description: Add api offchain finalizetransfer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainfinalizetransfer-post-openapi.md
+- name: Wallet_Api - Add API Offchain Requesttransfer
+  x-api-slug: apioffchainrequesttransfer-post
+  description: Add api offchain requesttransfer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainrequesttransfer-post-openapi.md
+- name: Wallet_Api - Get API Offchain Channelkey
+  x-api-slug: apioffchainchannelkey-get
+  description: Get api offchain channelkey.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainchannelkey-get-openapi.md
+- name: Wallet_Api - Add API Offchain Transfertomargin
+  x-api-slug: apioffchaintransfertomargin-post
+  description: Add api offchain transfertomargin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaintransfertomargin-post-openapi.md
+- name: Wallet_Api - Add API Offchain Operation Transfertotrusted
+  x-api-slug: apioffchainoperationidtransfertotrusted-post
+  description: Add api offchain operation transfertotrusted.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchainoperationidtransfertotrusted-post-openapi.md
+- name: Wallet_Api - Add API Offchain Cashout
+  x-api-slug: apioffchaincashout-post
+  description: Add api offchain cashout.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashout-post-openapi.md
+- name: Wallet_Api - Get API Offchain Cashout Swift
+  x-api-slug: apioffchaincashoutswift-get
+  description: Get api offchain cashout swift.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashoutswift-get-openapi.md
+- name: Wallet_Api - Add API Offchain Cashout Swift
+  x-api-slug: apioffchaincashoutswift-post
+  description: Add api offchain cashout swift.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashoutswift-post-openapi.md
+- name: Wallet_Api - Add API Offchain Cashout Forward
+  x-api-slug: apioffchaincashoutforward-post
+  description: Add api offchain cashout forward.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioffchaincashoutforward-post-openapi.md
+- name: Wallet_Api - Get API Operations Unsignedtransactions
+  x-api-slug: apioperationsunsignedtransactions-get
+  description: Get api operations unsignedtransactions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsunsignedtransactions-get-openapi.md
+- name: Wallet_Api - Add API Operations Unsignedtransactions
+  x-api-slug: apioperationsunsignedtransactions-post
+  description: Add api operations unsignedtransactions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsunsignedtransactions-post-openapi.md
+- name: Wallet_Api - Get API Operations List Status
+  x-api-slug: apioperationsliststatus-get
+  description: Get api operations list status.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsliststatus-get-openapi.md
+- name: Wallet_Api - Get API Operations
+  x-api-slug: apioperationsid-get
+  description: Get api operations.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsid-get-openapi.md
+- name: Wallet_Api - Add API Operations  Cancel
+  x-api-slug: apioperationsidcancel-post
+  description: Add api operations  cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationsidcancel-post-openapi.md
+- name: Wallet_Api - Add API Operations Cancel
+  x-api-slug: apioperationscancel-post
+  description: Add api operations cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apioperationscancel-post-openapi.md
+- name: Wallet_Api - Get API Orderbook
+  x-api-slug: apiorderbookid-get
+  description: Get api orderbook.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiorderbookid-get-openapi.md
+- name: Wallet_Api - Get API Personaldata
+  x-api-slug: apipersonaldata-get
+  description: Get api personaldata.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipersonaldata-get-openapi.md
+- name: Wallet_Api - Get API Pinsecurity
+  x-api-slug: apipinsecurity-get
+  description: Get api pinsecurity.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipinsecurity-get-openapi.md
+- name: Wallet_Api - Add API Pinsecurity
+  x-api-slug: apipinsecurity-post
+  description: Add api pinsecurity.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipinsecurity-post-openapi.md
+- name: Wallet_Api - Get API Privatekeyownershipmsg
+  x-api-slug: apiprivatekeyownershipmsg-get
+  description: Get api privatekeyownershipmsg.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatekeyownershipmsg-get-openapi.md
+- name: Wallet_Api - Add API Privatekeyownershipmsg
+  x-api-slug: apiprivatekeyownershipmsg-post
+  description: Add api privatekeyownershipmsg.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatekeyownershipmsg-post-openapi.md
+- name: Wallet_Api - Get API Privatewallet
+  x-api-slug: apiprivatewallet-get
+  description: Get api privatewallet.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-get-openapi.md
+- name: Wallet_Api - Put API Privatewallet
+  x-api-slug: apiprivatewallet-put
+  description: Put api privatewallet.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-put-openapi.md
+- name: Wallet_Api - Add API Privatewallet
+  x-api-slug: apiprivatewallet-post
+  description: Add api privatewallet.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-post-openapi.md
+- name: Wallet_Api - Delete API Privatewallet
+  x-api-slug: apiprivatewallet-delete
+  description: Delete api privatewallet.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallet-delete-openapi.md
+- name: Wallet_Api - Get API Privatewallet
+  x-api-slug: apiprivatewalletid-get
+  description: Get api privatewallet.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletid-get-openapi.md
+- name: Wallet_Api - Add API Privatewallet Key
+  x-api-slug: apiprivatewalletkey-post
+  description: Add api privatewallet key.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletkey-post-openapi.md
+- name: Wallet_Api - Add API Privatewalletbackup
+  x-api-slug: apiprivatewalletbackup-post
+  description: Add api privatewalletbackup.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletbackup-post-openapi.md
+- name: Wallet_Api - Get API Privatewalletbalance
+  x-api-slug: apiprivatewalletbalance-get
+  description: Get api privatewalletbalance.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewalletbalance-get-openapi.md
+- name: Wallet_Api - Get API Privatewallethistory
+  x-api-slug: apiprivatewallethistory-get
+  description: Get api privatewallethistory.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiprivatewallethistory-get-openapi.md
+- name: Wallet_Api - Get API Pubkeyaddressvalation
+  x-api-slug: apipubkeyaddressvalidation-get
+  description: Get api pubkeyaddressvalation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipubkeyaddressvalidation-get-openapi.md
+- name: Wallet_Api - Add API Purchaseasset
+  x-api-slug: apipurchaseasset-post
+  description: Add api purchaseasset.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipurchaseasset-post-openapi.md
+- name: Wallet_Api - Get API Pushsettings
+  x-api-slug: apipushsettings-get
+  description: Get api pushsettings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipushsettings-get-openapi.md
+- name: Wallet_Api - Add API Pushsettings
+  x-api-slug: apipushsettings-post
+  description: Add api pushsettings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apipushsettings-post-openapi.md
+- name: Wallet_Api - Add API Recoverysmsconfirmation
+  x-api-slug: apirecoverysmsconfirmation-post
+  description: Add api recoverysmsconfirmation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirecoverysmsconfirmation-post-openapi.md
+- name: Wallet_Api - Get API Refundaddress
+  x-api-slug: apirefundaddress-get
+  description: Get api refundaddress.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundaddress-get-openapi.md
+- name: Wallet_Api - Add API Refundaddress
+  x-api-slug: apirefundaddress-post
+  description: Add api refundaddress.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundaddress-post-openapi.md
+- name: Wallet_Api - Get API Refundsettings
+  x-api-slug: apirefundsettings-get
+  description: Get api refundsettings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundsettings-get-openapi.md
+- name: Wallet_Api - Add API Refundsettings
+  x-api-slug: apirefundsettings-post
+  description: Add api refundsettings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirefundsettings-post-openapi.md
+- name: Wallet_Api - Get API Registration
+  x-api-slug: apiregistration-get
+  description: Get api registration.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiregistration-get-openapi.md
+- name: Wallet_Api - Add API Registration
+  x-api-slug: apiregistration-post
+  description: Add api registration.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiregistration-post-openapi.md
+- name: Wallet_Api - Add API Remindpasswordemail
+  x-api-slug: apiremindpasswordemail-post
+  description: Add api remindpasswordemail.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiremindpasswordemail-post-openapi.md
+- name: Wallet_Api - Add API Requestvoicecall
+  x-api-slug: apirequestvoicecall-post
+  description: Add api requestvoicecall.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirequestvoicecall-post-openapi.md
+- name: Wallet_Api - Get API Restrictedcountries
+  x-api-slug: apirestrictedcountries-get
+  description: Get api restrictedcountries.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apirestrictedcountries-get-openapi.md
+- name: Wallet_Api - Add API Sendblockchainemail
+  x-api-slug: apisendblockchainemail-post
+  description: Add api sendblockchainemail.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisendblockchainemail-post-openapi.md
+- name: Wallet_Api - Get API Servertime
+  x-api-slug: apiservertime-get
+  description: Get api servertime.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiservertime-get-openapi.md
+- name: Wallet_Api - Add API Settingsignorder
+  x-api-slug: apisettingsignorder-post
+  description: Add api settingsignorder.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisettingsignorder-post-openapi.md
+- name: Wallet_Api - Get API Signatureverificationtoken Keyconfirmation
+  x-api-slug: apisignatureverificationtokenkeyconfirmation-get
+  description: Get api signatureverificationtoken keyconfirmation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignatureverificationtokenkeyconfirmation-get-openapi.md
+- name: Wallet_Api - Add API Signatureverificationtoken Keyconfirmation
+  x-api-slug: apisignatureverificationtokenkeyconfirmation-post
+  description: Add api signatureverificationtoken keyconfirmation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignatureverificationtokenkeyconfirmation-post-openapi.md
+- name: Wallet_Api - Get API Signrequest
+  x-api-slug: apisignrequest-get
+  description: Get api signrequest.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignrequest-get-openapi.md
+- name: Wallet_Api - Add API Signrequest
+  x-api-slug: apisignrequest-post
+  description: Add api signrequest.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apisignrequest-post-openapi.md
+- name: Wallet_Api - Get API Swiftcredentials Asset
+  x-api-slug: apiswiftcredentialsassetid-get
+  description: Get api swiftcredentials asset.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiswiftcredentialsassetid-get-openapi.md
+- name: Wallet_Api - Get API Swiftcredentials
+  x-api-slug: apiswiftcredentials-get
+  description: Get api swiftcredentials.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiswiftcredentials-get-openapi.md
+- name: Wallet_Api - Get API Transactions
+  x-api-slug: apitransactions-get
+  description: Get api transactions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apitransactions-get-openapi.md
+- name: Wallet_Api - Get API Transferinfo
+  x-api-slug: apitransferinfo-get
+  description: Get api transferinfo.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apitransferinfo-get-openapi.md
+- name: Wallet_Api - Add API Trustedwallets Operation Transfer
+  x-api-slug: apitrustedwalletsoperationidtransfer-post
+  description: Add api trustedwallets operation transfer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apitrustedwalletsoperationidtransfer-post-openapi.md
+- name: Wallet_Api - Get API Utils Isusorcanadanumber Phonenumber
+  x-api-slug: apiutilsisusorcanadanumberphonenumber-get
+  description: Get api utils isusorcanadanumber phonenumber.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiutilsisusorcanadanumberphonenumber-get-openapi.md
+- name: Wallet_Api - Get Home Version
+  x-api-slug: homeversion-get
+  description: Get home version.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/homeversion-get-openapi.md
+- name: Wallet_Api - Add API Walletmigration
+  x-api-slug: apiwalletmigration-post
+  description: Add api walletmigration.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwalletmigration-post-openapi.md
+- name: Wallet_Api - Get API Wallets
+  x-api-slug: apiwallets-get
+  description: Get api wallets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwallets-get-openapi.md
+- name: Wallet_Api - Add API Wallets
+  x-api-slug: apiwallets-post
+  description: Add api wallets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwallets-post-openapi.md
+- name: Wallet_Api - Get API Wallets
+  x-api-slug: apiwalletsid-get
+  description: Get api wallets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwalletsid-get-openapi.md
+- name: Wallet_Api - Add API Wallets Depositaddress Asset
+  x-api-slug: apiwalletsdepositaddressassetid-post
+  description: Add api wallets depositaddress asset.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwalletsdepositaddressassetid-post-openapi.md
+- name: Wallet_Api - Get API Watchlists
+  x-api-slug: apiwatchlists-get
+  description: Get api watchlists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlists-get-openapi.md
+- name: Wallet_Api - Add API Watchlists
+  x-api-slug: apiwatchlists-post
+  description: Add api watchlists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlists-post-openapi.md
+- name: Wallet_Api - Get API Watchlists
+  x-api-slug: apiwatchlistsid-get
+  description: Get api watchlists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlistsid-get-openapi.md
+- name: Wallet_Api - Put API Watchlists
+  x-api-slug: apiwatchlistsid-put
+  description: Put api watchlists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlistsid-put-openapi.md
+- name: Wallet_Api - Delete API Watchlists
+  x-api-slug: apiwatchlistsid-delete
+  description: Delete api watchlists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/lykke/master/_listings/lykke/apiwatchlistsid-delete-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://lykke.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/lykke-ag
 - type: x-email
